@@ -1,0 +1,35 @@
+html, body {
+  font-family: Arial;
+}
+
+button {
+  border: 1px;
+  font-size: 1.1rem;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instructions {
+  margin-bottom: 30px;
+}
+
+.dark {
+  background-color: rgba(13, 17, 23, 0.953);
+  color: #ffffff;
+}
+
+.dark button {
+  background: #144098;
+  color: #fff;
+}
+
